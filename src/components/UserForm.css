@@ -1,0 +1,87 @@
+/* Form Container */
+.form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Heading */
+  .form-heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  .user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Labels */
+  .user-form label {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  /* Input Fields */
+  .input-field {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    transition: border 0.3s;
+  }
+  
+  .input-field:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    padding: 12px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Saved Users Section */
+  .saved-users-heading {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #444;
+  }
+  
+  /* User List */
+  .user-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  /* Individual User Item */
+  .user-item {
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
